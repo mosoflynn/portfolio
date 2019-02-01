@@ -2,11 +2,14 @@
   <head>
     <title>My Site</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet"> 
   </head>
-  <body>
-    <%- yield %>
-    <div id="footer">
-      <p>Copyright © foobar</p>
+  <body class="font-sans">
+    <div class="container mx-4">
+      <div class="footer">
+            <p>Copyright © foobar</p>
+       </div>
     </div>
+    <%- yield %>
   </body>
 </html>
