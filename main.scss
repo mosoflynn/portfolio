@@ -1,5 +1,6 @@
 body {
-    background: none;
+    background: #4DC0B5;
+    color: white;
 }
 
 .contact-button {
@@ -8,12 +9,11 @@ body {
     display: inline-block;
     padding: 8px;
     border: 1px solid white;
-    color: #3490dc;
+    color: #4DC0B5;
     border-radius: 4px;
     background-color: white;
     &:hover {
-        color: white;
-        background-color: transparent;
+        transform: scale(1.2) perspective(1px)
     }
 }
 
